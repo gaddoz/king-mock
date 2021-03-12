@@ -1,0 +1,25 @@
+{
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]",
+    "category": "Category",
+    "tags": "Tag[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  },
+  "Category": {
+    "name": "string",
+    "id": "int"
+  },
+  "Tag": {
+    "name": "string"
+  }
+}
+
+
+
